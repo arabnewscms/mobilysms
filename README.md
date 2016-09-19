@@ -64,3 +64,14 @@ If I got a problem you will know how to solve it
 this package created by phpanonymous owner group php anonymoues developers on facebook 
 you can join us https://www.facebook.com/groups/anonymouses.developers
 
+if you want check message sent i'ts easy the package was returned result true not a string 
+```php 
+$send = Mobily::send(123456789,'message');
+if($send == true)
+{
+echo 'message sent';
+}else{
+echo $send;
+}
+
+```
